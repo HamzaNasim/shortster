@@ -1,0 +1,10 @@
+# Run these command to setup database
+
+1.`npx sequelize-cli db:create`
+2. `npx sequelize-cli model:generate --name url --attributes longUrl:text,shortUrl:text  shortCode:string`
+3. `npx sequelize-cli db:migrate`
+
+# Install libraries and run project
+
+1. `npm install`
+2. `npm start`
